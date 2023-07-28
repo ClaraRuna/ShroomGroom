@@ -1,0 +1,20 @@
+#ifndef SHROOMGROOM_H
+#define SHROOMGROOM_H
+
+#define MIN_HUMIDITY 80
+#define MAX_HUMIDITY 90
+
+#define MQTT_USER "user"
+#define MQTT_PASSWORD "password"
+#define MQTT_SERVER "192.168.0.207" //find your ip address with ifconfig
+#define MQTT_SERVERPORT 1883
+
+#define KEEPALIVE 666 //keep mqtt connection alive for 11 minutes 6 seconds (we are publishing every 10 min)
+#define SAMPLING_INTERVAL 60000 //ms
+
+#define WLAN_NAME "user"
+#define WLAN_PASSWORD "password"
+
+#define DHT_DEBUG true;
+
+#endif
